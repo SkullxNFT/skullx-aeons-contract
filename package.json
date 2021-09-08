@@ -1,0 +1,22 @@
+{
+  "name": "skullx-aeons-contract",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "npx hardhat test",
+    "hardhat:network": "npx hardhat node",
+    "hardhat:compile": "npx hardhat compile",
+    "hardhat:console": "npx hardhat console --network localhost",
+    "hardhat:deploy": "npx hardhat run --network localhost ./scripts/deploy.js"
+  },
+  "author": "UbbeNFT",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.6",
+    "hardhat": "^2.6.3"
+  }
+}
